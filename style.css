@@ -1,0 +1,222 @@
+/* =========================================
+EJERCICIO 1
+========================================= */
+
+.title {
+text-align: center;
+}
+
+main section h1 {
+background-color: gray;
+padding: 10px;
+}
+
+main section p {
+text-align: justify;
+font-size: 20px;
+}
+
+main section img {
+width: 150px;
+margin-right: 15px;
+float: left;
+}
+
+/* =========================================
+EJERCICIO 2
+========================================= */
+
+.grid-colores {
+display: grid;
+grid-template-columns: repeat(4, 10rem);
+}
+
+/* =========================================
+EJERCICIO 3
+========================================= */
+
+.grid-colores-fondo {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-colores-fondo div {
+color: white;
+font-weight: bold;
+padding: 1rem;
+font-size: 2rem;
+}
+
+.cuatro {
+grid-column: span 4;
+}
+
+.dos {
+grid-column: span 2;
+}
+
+/* =========================================
+EJERCICIO 4
+========================================= */
+
+.grid-colores-ej4 {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+gap: 20px;
+max-width: 400px;
+padding: 20px;
+background-color: #020d1b;
+}
+
+.grid-colores-ej4 .cuadrado {
+aspect-ratio: 1 / 1;
+border-radius: 8px;
+}
+
+/* =========================================
+COLORES EJERCICIO 4
+========================================= */
+
+.grid-colores-ej4 .cuadrado:nth-child(1) {
+background-color: #818cf8;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(2) {
+background-color: #a78bfa;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(3) {
+background-color: #c084fc;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(4) {
+background-color: #e879f9;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(5) {
+background-color: #f472b6;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(6) {
+background-color: #fb7185;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(7) {
+background-color: #6366f1;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(8) {
+background-color: #8b5cf6;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(9) {
+background-color: #a855f7;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(10) {
+background-color: #d946ef;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(11) {
+background-color: #ec4899;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(12) {
+background-color: #f43f5e;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(13) {
+background-color: #4f46e5;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(14) {
+background-color: #7c3aed;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(15) {
+background-color: #9333ea;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(16) {
+background-color: #c026d3;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(17) {
+background-color: #db2777;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(18) {
+background-color: #e11d48;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(19) {
+background-color: #4338ca;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(20) {
+background-color: #6d28d9;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(21) {
+background-color: #7e22ce;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(22) {
+background-color: #a21caf;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(23) {
+background-color: #be185d;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(24) {
+background-color: #be123c;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(25) {
+background-color: #3730a3;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(26) {
+background-color: #5b21b6;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(27) {
+background-color: #6b21a8;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(28) {
+background-color: #86198f;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(29) {
+background-color: #9d174d;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(30) {
+background-color: #9f1239;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(31) {
+background-color: #312e81;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(32) {
+background-color: #4c1d95;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(33) {
+background-color: #581c87;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(34) {
+background-color: #701a75;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(35) {
+background-color: #831843;
+}
+
+.grid-colores-ej4 .cuadrado:nth-child(36) {
+background-color: #881337;
+}
